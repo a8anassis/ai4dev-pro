@@ -52,8 +52,8 @@ my_deleted_filtered_list = [el for el in my_list3 if el != 3]   # returns a new 
 
 # Slicing
 lst = [10, 20, 30, 40, 50]
-my_list4 = my_list3[1:3]                   # [20, 30]
-my_list5 = my_list3[:2]                    # [10, 20]
-my_list6 = my_list3[::2]                  # [10, 30, 50]
-reversed_lst = my_list3[::-1]                 # [50, 40, 30, 20, 10]
+my_list4 = lst[1:3]                   # [20, 30]
+my_list5 = lst[:2]                    # [10, 20]
+my_list6 = lst[::2]                  # [10, 30, 50]
+reversed_lst = lst[::-1]                 # [50, 40, 30, 20, 10]
 
